@@ -1,0 +1,57 @@
+/* General container styles */
+.sorting-visualizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Button styles */
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #45a049;
+}
+
+/* Array container and bar styles */
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 90%;
+    height: 500px;
+    border: 2px solid #ddd;
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+
+.array-bar {
+    background-color: teal;
+    width: 5px;
+    margin: 0 1px;
+    transition: height 0.2s ease;
+}
+
+/* Smoother transitions and animations */
+.array-bar-compare {
+    background-color: red;
+}
+
+.array-bar-sorted {
+    background-color: green;
+}
